@@ -1,8 +1,49 @@
-images hebergements.
+aside {
+    display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+}
 
-margin-top: 15px;
-height: 200px;
-border-radius: 5px;
-background: url('Projet 2 - Reservia/images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg') no-repeat;
-position: relative;
-margin-bottom: 25px;
+article
+{
+    background-color: gainsboro;
+}
+
+
+#bloc_page
+{
+    font-family: raleway;
+}
+
+h3
+{
+    font-size: 14px;
+}
+h1
+{
+    font-size: 18px;
+    font-family: raleway;
+}
+
+#logo img
+{
+    width: 75px;
+    height: 40px;
+}
+
+#navigation { 
+display: flex;
+justify-content:space-evenly;
+position: absolute;
+right: 0px;
+ top: 0px;
+}
+
+
+#navfooter {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+background-color:gainsboro
+}
