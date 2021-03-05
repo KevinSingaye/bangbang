@@ -2,11 +2,18 @@ aside {
     display: inline-block;
     width: 150px;
     border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    vertical-align: top;
+    background-color: gainsboro;
 }
 
 article
 {
+    
     background-color: gainsboro;
+    border-radius: 10px;
+    padding: 8px
 }
 
 
@@ -46,4 +53,19 @@ flex-direction: row;
 justify-content: flex-start;
 align-items: flex-end;
 background-color:gainsboro
+}
+
+#image
+{
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   display: inline-block;
+ vertical-align: top;
+}
+
+#imagelespluspopulaires
+{
+    display: flex;
+    flex-direction:column
 }
