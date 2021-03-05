@@ -67,5 +67,43 @@ background-color:gainsboro
 #imagelespluspopulaires
 {
     display: flex;
+    flex-direction:column;
+}
+
+#Filtre
+{
+    border-radius: 10px 5px 10px 5px;
+}
+}
+
+#navigation { 
+display: flex;
+justify-content:space-evenly;
+position: absolute;
+right: 0px;
+ top: 0px;
+}
+
+
+#navfooter {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+background-color:gainsboro
+}
+
+#image
+{
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   display: inline-block;
+ vertical-align: top;
+}
+
+#imagelespluspopulaires
+{
+    display: flex;
     flex-direction:column
 }
