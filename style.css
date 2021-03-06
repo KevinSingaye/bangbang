@@ -1,19 +1,32 @@
 aside {
-    display: inline-block;
-    width: 150px;
-    border: 1px solid black;
+    
     border-radius: 10px;
     padding: 8px;
-    vertical-align: top;
     background-color: gainsboro;
+    width: 443px;
+    height: 628px;
+        float: right;
+        border: 1px solid black;
+        position: relative;
+        top: -660px;
+
+}
+
+#imageslespluspopulaires
+{
+    display: flex;
+    flex-direction:column;
 }
 
 article
 {
-    
+
     background-color: gainsboro;
     border-radius: 10px;
-    padding: 8px
+    padding: 6px;
+    width: 884px;
+    height: 653px;
+    justify-content:  space-evenly;
 }
 
 
@@ -64,46 +77,37 @@ background-color:gainsboro
  vertical-align: top;
 }
 
-#imagelespluspopulaires
-{
-    display: flex;
-    flex-direction:column;
-}
 
 #Filtre
 {
     border-radius: 10px 5px 10px 5px;
 }
-}
-
-#navigation { 
-display: flex;
-justify-content:space-evenly;
-position: absolute;
-right: 0px;
- top: 0px;
-}
 
 
-#navfooter {
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-end;
-background-color:gainsboro
-}
 
-#image
-{
+figure {
+    border: thin #c0c0c0 solid;
     display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   display: inline-block;
- vertical-align: top;
+    flex-flow: column;
+    max-width: 220px;
+    margin: auto;
 }
 
-#imagelespluspopulaires
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+
+figcaption {
+    background-color:white;
+    color:black;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+#actmarseille
 {
-    display: flex;
-    flex-direction:column
+    flex-wrap: wrap;
 }
