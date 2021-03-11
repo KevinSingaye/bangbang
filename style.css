@@ -6,13 +6,13 @@ padding-left: 10px;
 padding-right: 80px;
 padding-bottom: 10px;
     background-color: gainsboro;
-    width: 400px;
-    height: 628px;
+    width: 250px;
+    height: 550px;
         float: right;
         border: 1px solid black;
         position: relative;
-        top: -660px;
-
+        top: -560px;
+        left: -320px
 }
 
 #imageslespluspopulaires
@@ -20,7 +20,24 @@ padding-bottom: 10px;
     display: flex;
     flex-direction:column;
     
+    
 }
+
+#imageslespluspopulaires figure
+{
+display: flex;
+flex-direction: row;
+width: 400px;
+height: 100px;
+
+}
+
+#imageslespluspopulaires img {
+width: 100px ;
+height: 120px;
+justify-content: space-evenly;
+}
+
 
 article
 {
@@ -28,18 +45,25 @@ article
     background-color: gainsboro;
     border-radius: 10px;
     padding: 6px;
-    width: 884px;
-    height: 600px;
+    width: 750px;
+    height: 550px;
     justify-content:  space-evenly;
- 
+   
 }
 
 article img {
-    object-fit: contain;
+    width: 200px;
+    height: 100px ;
+    padding: 5px;
+    
 }
 
 #bloc_page
 {
+    font-family: raleway;
+}
+
+body {
     font-family: raleway;
 }
 
@@ -60,36 +84,71 @@ h1
 }
 
 #navigation { 
-display: flex;
-flex-direction: column;
+
+align-items: stretch;
 position: absolute;
 right: 10px;
  top: 10px;
 }
 
+#navigation li {
+    list-style: none;
+   
+}
+
+#navigation ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
 
 #navfooter {
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
-align-items: flex-end;
-background-color:gainsboro
+align-items: flex-start;
+align-content:center;
+background-color:gainsboro;
+
 }
 
+#navfooter li {
+    list-style: none;
+}
 
 #Filtre
 {
-    border-radius: 10px 5px 10px 5px;
+    font-family: raleway;
+
 }
 
+#Filtre p {
 
+ border-radius: 20px;
+
+}
+#Filtre i {
+
+    background-color: #DEEBFF;
+    border-radius: 20px;
+    padding: 8px;
+
+}
 
 figure {
+
     border: thin #c0c0c0 solid;
+   
+    border-color: white;
+    background-color: white;
     display: flex;
     flex-flow: column;
-    max-width: 220px;
+    max-width: 230px;
     margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 img {
@@ -105,14 +164,16 @@ padding-bottom: 5px;
 
 
 figcaption { 
-   float: right;
+  
     background-color:white;
     color:black;
     font-family: raleway;
     font-weight: bold;
     padding: 3px;
-    text-align: center;
-    
+    text-align:left;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
 }
 
 #actmarseille
@@ -120,32 +181,76 @@ figcaption {
     width: 500px;
     padding-top: 30px;
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     
 }
 
 #actmarseille img {
  display: flex;
+ flex-direction: row;
+align-items: stretch;
     max-width: 300px;
     max-height: 300px;
     padding-top: 5px;
 padding-left: 5px;
 padding-right: 5px;
 padding-bottom: 5px;
+box-shadow: 1px 1px 12px #555;
 }
 
 body{
 
-font-family: raleway;
+font-family: raleway
 }
 
 footer {
 
     padding-top: 30px;
+    font-family: raleway;
 }
 
-article img{
 
+
+form {
+
+padding-left: 30px;
+}
+
+button {
+    background-color: #0065FC;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+#recherche i {
+
+    background-color: lightgray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    
+}
+
+#hmarseille1 {
+display: flex;
+flex-direction: row;
+}
+
+#hmarseille2 {
     display: flex;
     flex-direction: row;
+    }
+
+#actmarseille2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#actmarseille3 {
+    display: flex;
+    flex-direction: column;
 }
