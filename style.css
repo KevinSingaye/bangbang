@@ -59,13 +59,14 @@ form {
     
     #navigation li {
         list-style: none;
-       
+        display: flex;
+        align-items: space-between;
     }
     
     #navigation ul {
         display: flex;
         flex-direction: row;
-    
+    list-style: none;
     }
 
     #hebergements {
@@ -74,11 +75,14 @@ form {
     }
 
 
+
     #Filtre
 {
     font-family: raleway;
 
+    
 }
+
 
 #Filtre p {
 
@@ -138,8 +142,8 @@ article img {
     padding: 5px;
     display: flex;
     flex-direction: row;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background-color: white;
 }
 
@@ -172,14 +176,12 @@ top: 19px;
         left: 95px;
         top: 20px;
     }
-    
-    #pic6 figcaption{
-        position: relative;
-        left: -15px;
-        top: -2px;
-       max-width: 220px;
-    
+  
+       
+    #pic6 figcaption {
+        max-width: 230px;
     }
+    
 
     #hmarseille2 {
        
@@ -211,6 +213,8 @@ article figure {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+     box-shadow: 1px 1px 12px #555;
+    
 }
 
 article figcaption { 
@@ -233,14 +237,15 @@ padding-left: 10px;
 padding-right: 80px;
 padding-bottom: 10px;
     background-color: gainsboro;
-    width: 250px;
-    height: 550px;
+    width: 270px;
+    height: 540px;
         float: right;
         position: relative;
         top: -560px;
-        left: -320px;
+        left: -300px;
        
 }
+
 
 aside figure
 {
@@ -250,12 +255,14 @@ aside figure
     background-color: white;
     display: flex;
     flex-flow: column;
-    width: 250px;
+    width: 300px;
     margin-left: 15px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 12px #555;
 }
 
 aside figcaption { 
@@ -265,20 +272,51 @@ aside figcaption {
     font-family: raleway;
     font-weight: bold;
     text-align:left;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    margin-left: 120px;
+    margin-top: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     position: absolute;
-    text-align: center;
+    height: 50px;
+    
 }
+
+#chart
+
+{
+    padding-left: 300px;
+    color: black;
+}
+
+aside i {
+    color: #0065FC;
+    position: relative;
+    top: -40px;
+
+}
+
+
 
 aside img {
 width: 100px ;
-height: 120px;
+height: 90px;
 padding-bottom: 10px;
 display: flex;
 flex-direction: column;
 justify-content: left;
-margin-left: 15px;
+margin-left: 5px;
+margin-top: 10px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+
+aside h4 {
+    font-weight: 300;
+    text-align: left;
+    position: relative;
+    top: -20px;
 }
 
 #actmarseille
@@ -295,11 +333,9 @@ margin-left: 15px;
  display: flex;
  flex-direction: row;
 align-items: stretch;
-    max-width: 300px;
-    max-height: 300px;
 box-shadow: 1px 1px 12px #555;
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 }
 
 #actmarseille figure {
@@ -314,8 +350,9 @@ border-top-right-radius: 5px;
     margin: auto;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
 }
 
 #actmarseille figcaption { 
@@ -325,10 +362,14 @@ border-top-right-radius: 5px;
     font-family: raleway;
     font-weight: bold;
     text-align:left;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     box-shadow: 1px 1px 12px #555;
 }
+
+
 
 #actmarseille h1 {
 margin-top: 20px;
@@ -336,11 +377,22 @@ position: relative;
 left: 50px;
 }
 
+#actmarseille1 {
+    margin-right: 30px;
+}
+
+#actmarseille1 img {
+
+    height: 300px;
+    
+}
+
 #actmarseille2 {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+    margin-right: 30px;
 }
 
 #actmarseille3 {
@@ -348,9 +400,32 @@ left: 50px;
     flex-direction: column;
     padding-left: 20px;
     padding-right:20px;
+    margin-right: 30px;
+}
+#actmarseille4 {
+    margin-right: 30px;
 }
 
+#actmarseille2 img {
+    height: 130px;
+    width: 230px ;
+}
 
+#actmarseille3 img {
+    max-height: 130px;
+    width: 230px ;
+    
+}
+
+#actmarseille4 img {
+    height: 300px;
+}
+
+#actmarseille3 figure {
+    height: 200px;
+    max-width: 230px ;
+    
+}
 footer {
 
     padding-top: 30px;
