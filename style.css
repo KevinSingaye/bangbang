@@ -29,18 +29,39 @@ h1
     margin-left: 15px;
 }
 
+#recherche {
+position: relative;
+top: -30px;
+
+}
+
+
+#recherche input{
+
+    font-weight: 900px;
+position: relative;
+top: -15px;
+height: 35px;
+}
+
+
+
 #recherche i {
 
     background-color: lightgray;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding-left: 6px;
-    padding-right: 6px;
-    
+    padding-left: 8px;
+    padding-right: 8px;
     position: relative;
-    bottom: -20px;
+    bottom: -42px;
     right: -20px;
+    height: 35px;
+    left: 17px;
+    
 }
+
+
 
 form {
     margin-left: 15px;
@@ -100,8 +121,9 @@ form {
     #Filtre
 {
     font-family: raleway;
-
-    
+position: relative;
+top: -60px;
+left: -15px;
 }
 
 
@@ -119,13 +141,16 @@ form {
 }
 
 #infoslogement {
-
+position: relative;
+top: -35px;
+right: -20px;
     padding-left: 15px;
 }
 #infoslogement i{
     position: relative;
     top: 30px;
     left: -10px;
+    
 }
 
 #infoslogement h3{
@@ -137,6 +162,10 @@ button {
     color: white;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    height: 35px;
+    position: relative;
+    right: -165px;
+    top: -71px;
 }
 
 
@@ -469,4 +498,10 @@ footer li {
     list-style: none;
 }
 
+.nos {
+    padding-left: 100px;
+}
 
+.ass {
+    padding-left: 150px;
+}
