@@ -80,35 +80,37 @@ form {
     top: -15px;
     
     }
-  #navigation h4 {
-      
+  #navigation h3 {
+    
       font-size: 14px;
       list-style: none ;
+      font-weight: 300;
   }
     .heb {
-        padding-right: 30px;
+        padding-right: 45px;
         padding-top: 5px;
         color: blue;
-      font-weight:lighter;
+      
       border: 1px 0 0 0;
       border-top: blue;
       border-bottom: none;
       border-left: none;
       border-right: none;
       border-style:solid none none none;
+     
     }
     
     .act {
         padding-right: 20px;
         padding-top: 5px;
-        font-weight: 12px;
+        font-weight: 300;
     }
     .sin {
         padding-right: 10px;
         padding-left: 15px;
         padding-top: 5px;
-        color: #DEEBFF;
-        font-weight: 16px;
+        color:blue;
+        font-weight: bold;
     }
     
     #navigation li {
