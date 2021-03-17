@@ -40,23 +40,25 @@ top: -30px;
 
     font-weight: 900px;
 position: relative;
-top: -15px;
-height: 35px;
+top: -5px;
+right: -16px;
+height: 47px;
 }
 
 
 
 #recherche i {
 
+    display: inline-block;
+    border-radius: 0,5em 0 0 0.5em;
     background-color: lightgray;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 1rem;
     position: relative;
     bottom: -42px;
     right: -20px;
-    height: 35px;
+    height: 15px;
     left: 17px;
     
 }
@@ -79,27 +81,34 @@ form {
     
     }
   #navigation h4 {
-      font-weight: 300;
+      
       font-size: 14px;
+      list-style: none ;
   }
     .heb {
         padding-right: 30px;
         padding-top: 5px;
-        color:#0065FC;
-      font-weight: 14px;
+        color: blue;
+      font-weight:lighter;
+      border: 1px 0 0 0;
+      border-top: blue;
+      border-bottom: none;
+      border-left: none;
+      border-right: none;
+      border-style:solid none none none;
     }
     
     .act {
         padding-right: 20px;
         padding-top: 5px;
-        font-weight: 14px;
+        font-weight: 12px;
     }
     .sin {
         padding-right: 10px;
         padding-left: 15px;
         padding-top: 5px;
-        color: #0065FC;
-        font-weight: 300;
+        color: #DEEBFF;
+        font-weight: 16px;
     }
     
     #navigation li {
@@ -111,7 +120,7 @@ form {
     #navigation ul {
         display: flex;
         flex-direction: row;
-    list-style: none;
+    
     }
 
    
@@ -122,7 +131,7 @@ form {
 {
     font-family: raleway;
 position: relative;
-top: -60px;
+top: -20px;
 left: -15px;
 }
 
@@ -139,6 +148,7 @@ left: -15px;
     padding: 8px;
     margin-left: 15px;
 }
+
 
 #infoslogement {
 position: relative;
@@ -162,10 +172,10 @@ button {
     color: white;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    height: 35px;
+    height: 48px;
     position: relative;
-    right: -165px;
-    top: -71px;
+    right: -12px;
+    top: -5px;
 }
 
 
@@ -228,10 +238,7 @@ top: 19px;
     }
   
        
-    #pic6 figcaption {
-        max-width: 230px;
-    }
-    
+   
 
     #hmarseille2 {
        
