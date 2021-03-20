@@ -138,8 +138,46 @@ form {
 position: relative;
 top: -20px;
 left: -15px;
+display: flex;
+flex-direction: row;
 }
 
+.eco {
+    border-radius: 40px 40px 40px 40px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-right: 10px;
+    padding-top: 5px;
+    
+}
+
+
+.fam {
+    border-radius: 40px 40px 40px 40px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+
+.rom {
+    
+    border-radius: 40px 40px 40px 40px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.ani {
+    border-radius: 40px 40px 40px 40px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-right:10px;
+    padding-top: 5px;
+  
+}
 
 
 #Filtre p {
