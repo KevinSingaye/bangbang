@@ -268,18 +268,18 @@ article img {
     top: -9px;
     }
    
-    #pic4 {
+    .pic4 {
         position: relative;
     left: 19px;
     top: 20px;
     }
-    #pic5 {
+    .pic5 {
 position: relative;
 left: 55px;
 top: 19px;
     }
 
-    #pic6 {
+    .pic6 {
         position: relative;
         left: 95px;
         top: 20px;
@@ -617,10 +617,28 @@ footer li {
         top: -100px;
     }
 
+
+
+
+
+
     article {
 
         width: auto;
         background-color: white;
+
+    }
+
+
+    article img {
+
+        width : 300px
+
+    }
+
+    article figure {
+
+       max-width: 330px;
 
     }
 
@@ -639,12 +657,58 @@ footer li {
      
     }
 
-    #actmarseille {
+.pic4 {
 
-        flex-direction: column;
+margin-left: 5px;
+
+}
+
+.pic5 {
+
+    position: relative;
+    left: 22px;
+}
+
+
+
+
+
+    #actmarseille0 {
+
+        
+     margin-top: 750px;
+
        }
 
+       #actmarseille {
 
+        
+        flex-direction: column;
+   
+          }
+   
+
+          #actmarseille1 figure {
+             width: 300px;
+
+          }
+
+          #actmarseille1 img {
+            width: 300px;
+        
+         }
+
+       #actmarseille img {
+
+        width: 300px;
+        height: 200px;
+       }
+
+       #actmarseille figure {
+
+        max-width: 330px;
+        
+       }
 
        footer {
 
