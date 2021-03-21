@@ -32,6 +32,26 @@ h1
     margin-left: 15px;
 }
 
+
+.t1 {
+
+    position: relative;
+    bottom: -23px;
+}
+
+.t2 {
+        
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 10px;
+    left: 242px;
+}
+
+.t3 h3 {
+
+    font-weight:300;
+}
+
 #recherche {
 position: relative;
 top: -30px;
@@ -200,6 +220,16 @@ top: -35px;
 right: -20px;
     padding-left: 15px;
 }
+
+.infos2 {
+
+    position: relative;
+    top: -30px;
+    right: -260px;
+
+}
+
+
 #infoslogement i{
     position: relative;
     top: 30px;
@@ -268,21 +298,37 @@ article img {
     top: -9px;
     }
    
+
+    .pic1 {
+
+padding-right : 50px;
+
+padding-bottom: 40px
+    }
+
+    .pic2 {
+padding-right: 50px ;
+
+    }
+
+    }
     .pic4 {
         position: relative;
     left: 19px;
     top: 20px;
+    padding-right: ;
     }
     .pic5 {
 position: relative;
 left: 55px;
-top: 19px;
+right: 5px;
+top: -1px;
     }
 
     .pic6 {
         position: relative;
         left: 95px;
-        top: 20px;
+        top: -5px;
     }
   
        
