@@ -47,6 +47,12 @@ h1
     left: 242px;
 }
 
+.t3 {
+
+    position: relative;
+top : -35px;
+}
+
 .t3 h3 {
 
     font-weight:300;
@@ -54,7 +60,7 @@ h1
 
 #recherche {
 position: relative;
-top: -30px;
+top: -70px;
 
 }
 
@@ -156,7 +162,7 @@ form {
 {
     font-family: raleway;
 position: relative;
-top: -20px;
+top: -60px;
 left: -15px;
 display: flex;
 flex-direction: row;
@@ -216,7 +222,7 @@ flex-direction: row;
 
 #infoslogement {
 position: relative;
-top: -35px;
+top: -55px;
 right: -20px;
     padding-left: 15px;
 }
@@ -261,7 +267,9 @@ article
     margin-left: 15px;
     padding: 6px;
     width: 750px;
-    height: 550px;   
+    height: 550px;  
+    position: relative;
+    top: -40px; 
 }
 
 
@@ -397,7 +405,7 @@ padding-bottom: 10px;
     height: 540px;
         float: right;
         position: relative;
-        top: -560px;
+        top: -600px;
         left: -300px;
        
 }
