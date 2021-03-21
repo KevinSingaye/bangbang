@@ -598,6 +598,100 @@ footer li {
         margin-top: 100px;
     }
 
+
+    .t1 {
+
+        position: relative;
+        left: -15px;
+    }
+
+    .t2 {
+        
+        padding-bottom: 5px;
+        position: relative;
+        bottom: 10px;
+        left: -13px;
+    }
+.t3 {
+
+    font-weight:lighter;
+    position: relative;
+    left: -15px;
+    top: -25px;
+}
+
+.t3 h3 {
+
+    font-weight:300;
+}
+
+#recherche {
+position: relative;
+left:-18px;
+top: -60px;
+
+}
+
+
+
+#Filtre {
+
+    padding-bottom:150px;
+position: relative;
+left: -30px;
+top: -50px;
+}
+
+.eco {
+    position: relative;
+    bottom: -40px;
+    left: -45px;
+}
+
+.fam {
+position:relative;
+bottom:-40px;
+left: -30px;
+}
+
+.rom {
+position: relative;
+bottom: -95px;
+left :-312px
+
+}
+
+.ani {
+position: relative;
+bottom: -150px;
+left:-455px;
+
+}
+
+
+#infoslogement {
+
+    position: relative;
+    left: -5px;
+    
+    
+
+}
+
+.infos1 {
+position: relative;
+right: -10px;
+top: -30px;
+}
+
+.infos2 {
+
+    position: relative;
+    top: -40px;
+    right: -10px;
+
+}
+
     article {
 
         margin-top: 600px;
@@ -607,7 +701,7 @@ footer li {
 
       position: relative;
       top: -1180px;
-      left: -600px;
+      left: -620px;
      
     }
 
@@ -764,5 +858,9 @@ border-color: blue;
         position: relative;
         left: -370px;
 
+     }
+
+     .sin h3 {
+         font-weight:bold;
      }
 }
