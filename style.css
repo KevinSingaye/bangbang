@@ -657,6 +657,7 @@ footer li {
 
         position: relative;
         left: -15px;
+        top: -2px;
     }
 
     .t2 {
@@ -666,6 +667,8 @@ footer li {
         bottom: 10px;
         left: -13px;
     }
+
+    
 .t3 {
 
     font-weight:lighter;
@@ -815,6 +818,7 @@ top: -55px;
 
     .pic1 {
         padding-bottom: 10px;
+        padding-left: 40px;
     }
 
  
@@ -828,6 +832,7 @@ top: -55px;
 
     .pic2 {
         padding-bottom: 10px;
+        padding-left: 40px;
     }
 
   
@@ -838,7 +843,8 @@ top: -55px;
     }
 
     .pic3 {
-        padding-bottom: 1px;
+        padding-bottom: 6px;
+        padding-right: 3px;
     }
 
     .pic3 img {
@@ -856,7 +862,8 @@ top: -55px;
 
 
 .pic4 {
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
 .pic4 img{
@@ -909,6 +916,12 @@ right : -23px;
    
           }
    
+#actmarseille1 {
+
+    position: relative;
+    left: -95px;
+    padding-bottom: 20px;
+}
 
           #actmarseille1 figure {
              width: 300px;
@@ -923,7 +936,7 @@ right : -23px;
        #actmarseille img {
 
         width: 300px;
-        height: 200px;
+        height: 150px;
        }
 
        #actmarseille figure {
@@ -931,6 +944,48 @@ right : -23px;
         max-width: 330px;
         
        }
+
+#actmarseille2 {
+position: relative;
+left: -92px;
+
+}
+
+.act1 {
+
+    
+
+}
+
+.act1 figure {
+    width:300px;
+    position: relative;
+    bottom : -15px;
+}
+
+.act2 {
+
+    padding-bottom: 20px;
+  
+}
+.act2 figure {
+    width: 300px;
+}
+
+.pic4 figure {
+
+    width: 310px;
+     
+
+}
+
+
+.pic1 figure {
+
+   width: 310px;
+   
+
+}
 
        footer {
 
