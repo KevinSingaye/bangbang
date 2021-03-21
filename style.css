@@ -951,9 +951,9 @@ left: -92px;
 
 }
 
-.act1 {
 
-    
+#actmarseille2 figure {
+   padding-bottom: 15px;
 
 }
 
@@ -987,9 +987,29 @@ left: -92px;
 
 }
 
+#actmarseille3  {
+
+   position: relative; 
+   left:-90px
+
+}
+
+#actmarseille4  {
+
+    position: relative; 
+    left:-90px;
+ padding-bottom: 20px;
+ }
+
+ #actmarseille4 figure {
+
+   width: 300px;
+ 
+ }
+
        footer {
 
-        width: auto ;
+        width: 320px ;
        display: flex;
        flex-direction: column;
 
@@ -1007,7 +1027,13 @@ left: -92px;
          position: relative;
          bottom: -70px;
 left: -305px;
-border-color: blue;
+border: 0 0 1px 0;
+      border-top: none;
+      border-bottom: blue;
+      border-left: none;
+      border-right: none;
+      border-style: none none solid none;
+
 
 
      }
@@ -1018,8 +1044,13 @@ border-color: blue;
     bottom: -70px;
     left: -305px;
     border: 0 0 1px 0 ;
-    border-style: 0 0 solid 0;
-    border-bottom: lightgray;
+    border-top: none;
+      border-bottom: lightgray;
+      border-left: none;
+      border-right: none;
+      border-style: none none solid none;
+
+
 }
 
 
