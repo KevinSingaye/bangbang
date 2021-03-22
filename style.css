@@ -154,7 +154,9 @@ form {
     
     }
 
-   
+   #navigation a {
+
+   }
 
 
 
@@ -166,6 +168,12 @@ top: -60px;
 left: -15px;
 display: flex;
 flex-direction: row;
+}
+
+
+#Filtre i:hover {
+  
+    color: blue;
 }
 
 .eco {
@@ -213,6 +221,8 @@ flex-direction: row;
 }
 #Filtre i {
 
+
+    color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 20px;
     padding: 8px;
@@ -691,6 +701,7 @@ top: -60px;
 
 
 
+
 #Filtre {
 
     padding-bottom:150px;
@@ -1078,3 +1089,5 @@ border: 0 0 1px 0;
          font-weight:bold;
      }
 }
+
+
