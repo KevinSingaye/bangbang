@@ -67,7 +67,7 @@ top: -70px;
 
 #recherche input{
 
-    font-weight: 900px;
+font-weight: 900px;
 position: relative;
 top: -5px;
 right: -16px;
@@ -180,9 +180,8 @@ flex-direction: row;
     border-radius: 40px 40px 40px 40px;
     border-style: solid;
     border-color: lightgray;
-    padding-right: 10px;
+    margin-left: 10px;
     padding-top: 5px;
-    
 }
 
 .eco:hover{
@@ -321,7 +320,6 @@ article img {
     }
 
 
-    
 
 #hmarseille1 h3{
         font-weight:300;
@@ -335,20 +333,30 @@ article img {
 
 padding-right : 50px;
 
-padding-bottom: 40px
+padding-bottom: 40px ;
+Position: relative;
+right : -17px;
     }
 
     .pic2 {
 padding-right: 50px ;
-
+position: relative;
+right: -4px;
     }
 
+
+    .pic3 {
+
+        position: relative;
+        left: -10px;
+
     }
+    
     .pic4 {
         position: relative;
     left: 19px;
-    top: 20px;
-    padding-right: ;
+    
+  
     }
     .pic5 {
 position: relative;
@@ -359,8 +367,8 @@ top: -1px;
 
     .pic6 {
         position: relative;
-        left: 95px;
-        top: -5px;
+        right: -90px;
+       
     }
   
        
@@ -725,72 +733,57 @@ top: -50px;
 }
 
 .eco {
-    position: relative;
-    bottom: -40px;
-    left: -45px;
+    
 }
 
 .fam {
-position:relative;
-bottom:-40px;
-left: -30px;
+
 }
 
 .rom {
-position: relative;
-bottom: -95px;
-left :-312px
+
 
 }
 
 .ani {
-position: relative;
-bottom: -150px;
-left:-455px;
+
 
 }
 
 
 #infoslogement {
 
-    position: relative;
-    left: -5px;
    
-    
+
 
 }
 
 .infos1 {
-position: relative;
-right: -10px;
-top: -30px;
+
 }
 
 .infos2 {
 
-    position: relative;
-    top: -40px;
-    right: -10px;
-
+    
 }
 
     article {
 
-        margin-top: 600px;
+        
     }
 
     aside {
 
-      position: relative;
-      top: -1210px;
-      left: -620px;
+      
      
     }
 
     #logo img {
 
         position: relative;
-        top: -100px;
+        top : -95px;
+        left: -15px;
+        
     }
 
 
@@ -802,14 +795,12 @@ top: -30px;
 
         width: auto;
         background-color: white;
-position: relative;
-top: -55px;
+
     }
 
     article h1 {
 
-        position: relative;
-        left: -25px;
+        
     }
 
 
@@ -830,20 +821,19 @@ top: -55px;
 
         flex-direction: column;
     
-      position: relative;
-      left: -330px;
+      
     }
 
     #hmarseille2 {
         
         flex-direction: column;
-        position: relative;
-     left: -40px;
+     
     }
 
     .pic1 {
         padding-bottom: 10px;
         padding-left: 40px;
+        
     }
 
  
@@ -852,12 +842,14 @@ top: -55px;
     .pic1 figure {
 
         width: 310px;
+
     }
 
 
     .pic2 {
         padding-bottom: 10px;
         padding-left: 40px;
+       
     }
 
   
@@ -870,10 +862,11 @@ top: -55px;
     .pic3 {
         padding-bottom: 6px;
         padding-right: 3px;
+       
     }
 
     .pic3 img {
-        position: relative;
+      
         
     
     }
@@ -900,29 +893,23 @@ width: 300px;
 
 .pic4 figure {
     max-width: 330px;
-    position: relative;
-    right: -2px;
+  
 }
 
 .pic5 {
 
-    position: relative;
-    left: 22px;
+   
     padding-bottom: 10px;
 }
 
 .pic6 {
 
-    position: relative;
-    bottom: 10px;
-  left: -2px;
-  right: -5px;
+    
 }
 
 .pic6 figure {
 
-    position: relative;
-right : -23px;
+    
 }
 
 
@@ -943,8 +930,7 @@ right : -23px;
    
 #actmarseille1 {
 
-    position: relative;
-    left: -95px;
+    
     padding-bottom: 20px;
 }
 
@@ -971,8 +957,7 @@ right : -23px;
        }
 
 #actmarseille2 {
-position: relative;
-left: -92px;
+
 
 }
 
@@ -984,8 +969,7 @@ left: -92px;
 
 .act1 figure {
     width:300px;
-    position: relative;
-    bottom : -15px;
+    
 }
 
 .act2 {
@@ -1014,15 +998,13 @@ left: -92px;
 
 #actmarseille3  {
 
-   position: relative; 
-   left:-90px
+ 
 
 }
 
 #actmarseille4  {
 
-    position: relative; 
-    left:-90px;
+    
  padding-bottom: 20px;
  }
 
@@ -1034,7 +1016,7 @@ left: -92px;
 
        footer {
 
-        width: 320px ;
+        width: Auto  ;
        display: flex;
        flex-direction: column;
 
@@ -1049,9 +1031,7 @@ left: -92px;
      }
 
      .heb {
-         position: relative;
-         bottom: -70px;
-left: -305px;
+       
 border: 0 0 1px 0;
       border-top: none;
       border-bottom: blue;
@@ -1065,9 +1045,8 @@ border: 0 0 1px 0;
 
 .act {
 
-    position: relative;
-    bottom: -70px;
-    left: -305px;
+  
+    
     border: 0 0 1px 0 ;
     border-top: none;
       border-bottom: lightgray;
@@ -1082,20 +1061,20 @@ border: 0 0 1px 0;
 
     .ass {
 
-       position: relative;
-       left: -150px;
     }
 
     .nos {
 
-        position: relative;
-        left: -100px;
+        
      }
 
      .sin {
 
+
         position: relative;
-        left: -370px;
+        right: -180px;
+
+     
 
      }
 
