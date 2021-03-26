@@ -154,10 +154,6 @@ form {
     
     }
 
-   #navigation a {
-
-   }
-
 
 
     #Filtre
@@ -776,10 +772,7 @@ top: -60px;
     left: -60px;
 }
 
-#Filtre i {
 
-    
-}
 
 .eco {
 
@@ -855,10 +848,7 @@ align-items: center;
     left: -30px;
 }
 
-    article {
-
-        
-    }
+  
 
     aside {
 
@@ -888,10 +878,7 @@ align-items: center;
 padding-top: 580px;
     }
 
-    article h1 {
-
-        
-    }
+   
 
 
     article img {
@@ -955,11 +942,7 @@ padding-top: 580px;
        
     }
 
-    .pic3 img {
-      
-        
     
-    }
 
     .pic3 figure {
 
@@ -1065,10 +1048,7 @@ width: 300px;
         
        }
 
-#actmarseille2 {
 
-
-}
 
 
 #actmarseille2 figure {
@@ -1105,11 +1085,7 @@ width: 300px;
 
 }
 
-#actmarseille3  {
 
- 
-
-}
 
 #actmarseille4  {
 
@@ -1125,7 +1101,7 @@ width: 300px;
 
        footer {
 
-        width: Auto  ;
+        max-width: 100%;
        display: flex;
        flex-direction: column;
 
@@ -1141,10 +1117,6 @@ width: 300px;
 
    
 
-.prop {
-
-
-}
 
 
      .nos {
@@ -1159,9 +1131,3 @@ width: 300px;
         position: relative;
         left: -150px;
     }
-
-   
-
-     
-
-
