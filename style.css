@@ -751,7 +751,13 @@ top: -60px;
     
     }
     
+.sin {
 
+    position: relative;
+    top: -50px;
+    left: -60px;
+
+}
 
 
 
@@ -763,35 +769,74 @@ top: -60px;
 
 }
 
-.eco {
+.Filtre {
+
     position: relative;
-    top: -50px
+    top: -100px;
+    left: -60px;
+}
+
+#Filtre i {
+
+    
+}
+
+.eco {
+
+    
+    display: flex;
+flex-direction: row;
+align-items: center;
+    position: relative;
+    top: -50px;
+   
+    
+}
+
+.eco i {
+
+    padding-top: 17px;
+    padding-left:17px;
+    padding-right:17px;
+    padding-bottom: 17px;
+    
 }
 
 .fam {
 
     position: relative;
-    left: 60px;
-    top: -50px
+    left: -110px;
+    top: -50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
 }
 
 .rom {
 position: relative;
-
-
+top: 20px;
+left : -420px;
+display: flex;
+flex-direction: row;
+align-items: center;
 
 }
 
 .ani {
 
 position: relative;
-top: 110px;
-right: 
+top: 90px;
+left: -575px;
+display: flex;
+flex-direction: row;
+align-items: center;
 }
 
 
 #infoslogement {
+
+    padding-top : 50px;
 
 
 }
@@ -817,7 +862,9 @@ right:
 
     aside {
 
-      
+      position: relative;
+      left: 0px;
+      top: -1160px;
      
     }
 
@@ -838,7 +885,7 @@ right:
 
         width: auto;
         background-color: white;
-
+padding-top: 580px;
     }
 
     article h1 {
@@ -872,6 +919,8 @@ right:
     .pic1 {
         padding-bottom: 10px;
         padding-left: 40px;
+        position: relative;
+        left: -40px;
         
     }
 
@@ -888,6 +937,8 @@ right:
     .pic2 {
         padding-bottom: 10px;
         padding-left: 40px;
+        position: relative;
+        left: -40px;
        
     }
 
@@ -921,6 +972,9 @@ right:
 .pic4 {
     padding-bottom: 10px;
     padding-left: 20px;
+    position: relative;
+    left: -20px;
+    top: 0px;
 }
 
 .pic4 img{
@@ -936,27 +990,42 @@ width: 300px;
 }
 
 .pic5 {
-
-   
+    position: relative;
+    left: -10px;
+    top:0px;
     padding-bottom: 10px;
+}
+
+.pic5 figure {
+    width: 310px;
 }
 
 .pic6 {
 
-    
+    position: relative;
+    left: -10px;
+    top:0px;
 }
 
 .pic6 figure {
 
-    
+    width: 310px;
 }
 
 
+#afficher {
+
+    position: relative;
+    top:-200px;
+
+}
 
     #actmarseille0 {
 
         
      margin-top: 750px;
+     position: relative;
+     left: 20px;
 
        }
 
@@ -964,7 +1033,8 @@ width: 300px;
 
         
         flex-direction: column;
-   
+   position: relative;
+   left: -70px;
           }
    
 #actmarseille1 {
@@ -1073,18 +1143,21 @@ width: 300px;
 
 .prop {
 
-    
+
 }
 
 
      .nos {
 
-        
+        position: relative;
+        left: -100px;
     }
 
 
     .ass {
 
+        position: relative;
+        left: -150px;
     }
 
    
