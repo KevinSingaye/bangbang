@@ -275,6 +275,11 @@ right: -20px;
     position: relative;
     top: 30px;
     left: -10px;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+    border-color: lightgray;
+    border-width: 3px;
     
 }
 
