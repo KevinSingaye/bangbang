@@ -11,27 +11,33 @@ body{
 
 h3
 {
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 15px;
 }
 h1
 {
     margin-left: 15px;
-    font-size: 18px;
+    font-size: 24px;
     font-family: raleway;
 }
 
-#logo h3 {
+.logo h3 {
  font-weight:300;
 }
 
-#logo img
+.logo img
 {
-    width: 75px;
-    height: 40px;
+    width: 150px;
+    height: 70px;
     margin-left: 15px;
 }
 
+.titre {
+
+    position: relative;
+    bottom: -20px;
+    
+}
 
 .t1 {
 
@@ -41,16 +47,15 @@ h1
 
 .t2 {
         
-    padding-bottom: 5px;
-    position: relative;
-    bottom: 10px;
-    left: 242px;
+   
+    display: flex;
+    flex-direction: row;
 }
 
 .t3 {
 
     position: relative;
-top : -35px;
+    bottom: -20px;
 }
 
 .t3 h3 {
@@ -58,40 +63,47 @@ top : -35px;
     font-weight:300;
 }
 
-#recherche {
-position: relative;
-top: -70px;
+.recherche input{
 
-}
+font-weight:bold;
+font-size: 16px;
 
-
-#recherche input{
-
-font-weight: 900px;
 position: relative;
 top: -5px;
 right: -16px;
-height: 47px;
+height: 60px;
+width: 200px;
 }
 
 
 
-#recherche i {
+.recherche i {
 
     display: inline-block;
     border-radius: 0,5em 0 0 0.5em;
     background-color: lightgray;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding: 1rem;
+    padding: 20px;
     position: relative;
-    bottom: -42px;
-    right: -20px;
-    height: 15px;
-    left: 17px;
+    bottom: -55px;
+    height: 21px;
+right: -10px;
     
 }
 
+button {
+    background-color: #0065FC;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 60px;
+    width: 160px;
+    position: relative;
+    right: -10px;
+    top: -5px;
+    font-size: 16px;
+}
 
 
 form {
@@ -101,18 +113,20 @@ form {
     
 
     
-#navigation { 
+.navigation { 
     display: flex;
     align-items: space-between;
-    position: absolute;
-    right: 330px;
-    top: -15px;
+    justify-content: flex-end;
+    align-items: flex-start;
+   position: relative;
+   top: -350px;
+   bottom: -60px;
+   left: -170px;
     
     }
-  #navigation h3 {
+  .navigation h3 {
     
-      font-size: 14px;
-      list-style: none ;
+      font-size: 20px;
       font-weight: 300;
   }
     .heb {
@@ -142,21 +156,26 @@ form {
         font-weight: bold;
     }
     
-    #navigation li {
-        list-style: none;
+    .navigation li {
+        
         display: flex;
         align-items: space-between;
     }
     
-    #navigation ul {
+
+.navigation ul {
         display: flex;
         flex-direction: row;
     
     }
 
 
+    .navigation li a {
+        text-decoration: none;
+    }
 
-    #Filtre
+
+    .Filtre-container
 {
     font-family: raleway;
 position: relative;
@@ -167,83 +186,16 @@ flex-direction: row;
 justify-content: space-between;
 }
 
-#Filtre i:hover{
-    color:blue
-}
 
 
-
-.eco {
-    border-radius: 30px 30px 30px 30px;
-    border-style: solid;
-    border-color: lightgray;
-    margin-left: 10px;
-    padding-right:13px;
-    padding-top: 5px;
-    position: relative;
-    left: -120px;
-}
-
-.eco:hover{
-    color: blue;
-}
-
-
-.fam {
-    border-radius: 40px 40px 40px 40px;
-    border-style: solid;
-    border-color: lightgray;
-    padding-right: 10px;
-    padding-top: 5px;
-    position: relative;
-    left: -220px;
-}
-
-.fam:hover{
-    color: blue;
-}
-
-.rom {
-    
-    border-radius: 40px 40px 40px 40px;
-    border-style: solid;
-    border-color: lightgray;
-    padding-right: 10px;
-    padding-top: 5px;
-    position: relative;
-    left: -320px;
-}
-
-.rom:hover{
-    color: blue;
-}
-
-.ani {
-    border-radius: 40px 40px 40px 40px;
-    border-style: solid;
-    border-color: lightgray;
-    padding-right:10px;
-    padding-top: 5px;
-    position: relative;
-    left: -420px;
-  
-}
-
-.ani:hover{
-    color: blue;
-}
-
-#Filtre p {
-
- 
- margin-left: 15px;
-}
-#Filtre i {
+.Filtre-container i {
 
 
     color: #0065FC;
     background-color: #DEEBFF;
-    border-radius: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
     padding-top: 17px;
     padding-left:17px;
     padding-right:17px;
@@ -252,10 +204,99 @@ justify-content: space-between;
     position: relative;
     top:-2px;
     left: -15px;
+    text-align: center;
+    font-size: 25px;
+
 }
 
 
-#infoslogement {
+.Filtre-container i:hover{
+    color:blue
+}
+
+
+
+.eco {
+    border-radius: 40px 40px 40px 40px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-left: 10px;
+    padding-right:50px;
+    padding-top: 5px;
+    position: relative;
+    left: -120px;
+    
+}
+
+.eco i {
+    text-align: center;
+}
+
+.eco:hover{
+    color: blue;
+    background-color:cornflowerblue;
+}
+
+
+.fam {
+    border-radius: 40px 40px 40px 40px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-right: 50px;
+    padding-top: 5px;
+    position: relative;
+    left: -220px;
+}
+
+
+
+
+.fam:hover{
+    color: blue;
+    background-color:cornflowerblue;
+}
+
+.rom {
+    
+    border-radius: 40px 40px 40px 40px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-right: 50px;
+    padding-top: 5px;
+    position: relative;
+    left: -320px;
+}
+
+.rom:hover{
+    color: blue;
+    background-color:cornflowerblue;
+}
+
+.ani {
+    border-radius: 40px 40px 40px 40px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-right: 50px;
+    padding-top: 5px;
+    position: relative;
+    left: -420px;
+  
+}
+
+.ani:hover{
+    color: blue;
+    background-color:cornflowerblue;
+}
+
+.Filtre p {
+
+font-size: 20px; 
+ margin-left: 15px;
+}
+
+
+
+.infoslogement-container {
 position: relative;
 top: -55px;
 right: -20px;
@@ -265,54 +306,69 @@ right: -20px;
 .infos2 {
 
     position: relative;
-    top: -30px;
-    right: -260px;
+    top: -39.5px;
+    right: -334px;
 
 }
 
 
-#infoslogement i{
+.infoslogement-container i{
     position: relative;
-    top: 30px;
+    top: 40px;
     left: -10px;
     background-color: #0065FC;
     color: white;
     border-radius: 30px 30px 30px 30px;
     border-color: lightgray;
     border-width: 3px;
-    
+ 
+   
 }
 
-#infoslogement h3{
+.infoslogement-container h3{
     font-weight: 300;
 }
 
-button {
-    background-color: #0065FC;
-    color: white;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 48px;
-    position: relative;
-    right: -12px;
-    top: -5px;
-}
+
 
 
 
 article
 {
+    
     background-color: gainsboro;
     border-radius: 10px;
     margin-left: 15px;
     padding: 6px;
-    width: 750px;
-    height: 550px;  
+    width: 1100px;
+    height: 900px;  
     position: relative;
     top: -40px; 
 }
 
 
+.hebergement-titre {
+
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
+
+.hebergementpic {
+
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-top: 50px;
+}
+
+
+
+.afficher {
+    padding-left: 20px;
+   
+}
 
 article i {
     color: #0065FC;
@@ -321,24 +377,20 @@ article i {
 }
 
 article img {
-    width: 200px;
-    height: 100px ;
+    width: 300px;
+    height: 200px ;
+    object-fit: cover;
     padding: 5px;
-    display: flex;
-    flex-direction: row;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     background-color: white;
+    
 }
 
-#hmarseille1 {
-    display: flex;
-    flex-direction: row;
-    }
 
 
 
-#hmarseille1 h3{
+article h3{
         font-weight:300;
     position: relative;
     left: -15px;
@@ -348,46 +400,24 @@ article img {
 
     .pic1 {
 
-padding-right : 50px;
+padding-bottom: 20px;
 
-padding-bottom: 40px ;
-Position: relative;
-right : -17px;
     }
 
     .pic2 {
-padding-right: 50px ;
-position: relative;
-right: -4px;
+
+        padding-bottom: 20px;
+
     }
 
 
     .pic3 {
 
-        position: relative;
-        left: -10px;
-
+        padding-bottom: 20px;
+        
     }
     
-    .pic4 {
-        position: relative;
-  bottom: -230px;
-  left: -718px;
-
-    }
-  
-    .pic5 {
-        position: relative;
-  bottom: -230px;
-  left: -680px;
-
-    }
-
-    .pic6 {
-        position: relative;
-  bottom: -230px;
-  left: -645px;
-    }
+   
 
        
 
@@ -399,13 +429,13 @@ article figure {
     background-color: white;
     display: flex;
     flex-flow: column;
-    max-width: 230px;
+    max-width: 330px;
     margin: auto;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-     box-shadow: 1px 1px 12px #555;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+     box-shadow: 10px 10px 12px #555;
     
 }
 
@@ -415,6 +445,7 @@ article figcaption {
     color:black;
     font-family: raleway;
     font-weight: bold;
+    font-size: 20px;
     text-align:start;
     margin-left: 15px;
     border-bottom-left-radius: 5px;
@@ -429,13 +460,20 @@ padding-left: 10px;
 padding-right: 80px;
 padding-bottom: 10px;
     background-color: gainsboro;
-    width: 270px;
-    height: 540px;
-        float: right;
-        position: relative;
-        top: -600px;
-        left: -300px;
+    width: 400px;
+    height: 895px;
+    position: relative;
+    top: -955px;
+    left:-150px;
+        float:right;
+      
        
+}
+
+.titre-a {
+
+margin-left: 20px;
+padding-top: 20px;
 }
 
 
@@ -447,14 +485,14 @@ aside figure
     background-color: white;
     display: flex;
     flex-flow: column;
-    width: 300px;
+    width: 400px;
     margin-left: 15px;
     margin-top: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    box-shadow: 1px 1px 12px #555;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 10px 10px 12px #555;
 }
 
 aside figcaption { 
@@ -463,9 +501,10 @@ aside figcaption {
     color:black;
     font-family: raleway;
     font-weight: bold;
+    font-size: 20px;
     text-align:left;
-    margin-left: 120px;
-    margin-top: 5px;
+    margin-left: 180px;
+    margin-top: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     position: absolute;
@@ -473,33 +512,41 @@ aside figcaption {
     
 }
 
-#chart
+.chart {
+
+    display: flex;
+ justify-content: flex-end;
+position: relative;
+top: -65px;
+}
+
+.chart i
 
 {
-    padding-left: 300px;
+    font-size: 30px;
     color: black;
 }
 
+
+
 aside i {
     color: #0065FC;
-    position: relative;
-    top: -40px;
+   padding-top: 10px;
 
 }
 
 
 
 aside img {
-width: 100px ;
-height: 90px;
+width: 150px ;
+height: 180px;
+object-fit: cover;
 padding-bottom: 10px;
-display: flex;
-flex-direction: column;
-justify-content: left;
+
 margin-left: 5px;
 margin-top: 10px;
-border-top-left-radius: 10px;
-border-bottom-right-radius: 10px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
 
 }
 
@@ -511,28 +558,28 @@ aside h4 {
     top: -20px;
 }
 
-#actmarseille
+.actmarseille
 {
     margin-left: 15px;
     width: 500px;
     padding-top: 30px;
     display: flex;
     flex-direction:row;
+  justify-content: space-between;
     
 }
 
 
 
-#actmarseille img {
- display: flex;
- flex-direction: row;
-align-items: stretch;
+.actmarseille img {
+ 
 box-shadow: 1px 1px 12px #555;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+box-shadow: 10px 10px 12px #555;
 }
 
-#actmarseille figure {
+.actmarseille figure {
 
     border: thin #c0c0c0 solid;
    
@@ -540,114 +587,148 @@ border-top-right-radius: 10px;
     background-color: white;
     display: flex;
     flex-flow: column;
-    max-width: 230px;
+    max-width: 400px;
     margin: auto;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20x;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+   
     
 }
 
-#actmarseille figcaption { 
+.actmarseille figcaption { 
   
     background-color:white;
     color:black;
     font-family: raleway;
     font-weight: bold;
+    font-size: 20px;
     text-align:left;
     padding-left: 15px;
     padding-bottom: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 1px 1px 12px #555;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 12px #555;
 }
 
 
 
-#actmarseille h1 {
+.actmarseille h1 {
 margin-top: 20px;
 position: relative;
 left: 50px;
 }
 
-#actmarseille1 {
+.actmarseille1 {
     margin-right: 30px;
 }
 
-#actmarseille1 img {
+.actmarseille1 img {
 
-    height: 300px;
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+
+}
+
+.actmarseille2 {
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 30px;
+    margin-left: 30px;
     
 }
 
-#actmarseille2 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: 30px;
-}
 
 
 
 
-
-#actmarseille3 {
+.actmarseille3 {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     padding-right:20px;
+    position: relative;
+    top: -80px;
+   
+   
+}
+
+
+
+
+.actmarseille4 {
     margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    top : -20px;
 }
 
-
-
-
-#actmarseille4 {
-    margin-right: 30px;
+.actmarseille2 img {
+    height: 230px;
+    width: 330px ;
+    object-fit: cover;
 }
 
-#actmarseille2 img {
-    height: 130px;
-    width: 230px ;
-}
-
-#actmarseille3 img {
-    max-height: 130px;
-    width: 230px ;
+.actmarseille3 img {
+    max-height: 230px;
+    width: 330px ;
     
 }
 
-#actmarseille4 img {
-    height: 300px;
+.actmarseille4 img {
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
 }
 
-#actmarseille3 figure {
+.actmarseille3 figure {
     height: 200px;
-    max-width: 230px ;
+    max-width: 500px ;
     
 }
+
+.actmarseille5 {
+
+    padding-top: 20px;
+
+}
+
+
 footer {
 
-    padding-top: 30px;
+   
     font-family: raleway;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content:center;
+    
     background-color:gainsboro;
-    margin-top: 50px;
-    max-width: 80%;
+    width: 100%;
+    
+    
+    margin-top: 70px;
+  
+    
+    
 
 }
 
+.navfooter  {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+   padding-top: 20px;
+    
+}
 
 
 footer h3
 {
 margin-left: 2px;
+font-size: 20px;
 }
 footer li {
     list-style: none;
@@ -655,26 +736,31 @@ footer li {
 
 
 
-.nos {
-    padding-left: 100px;
-}
 
 
 
-
-
-.ass {
-    padding-left: 150px;
-}
-
-
-
-
-
-
-@media all and (max-width: 1024px)
+@media all and (max-width: 600px)
 
 {
+
+
+.logo img {
+height: 20%;
+width: 20%;
+position: relative;
+        top : -95px;
+        left: -15px;
+
+}
+
+.navigation {
+
+
+
+position: relative;
+left: 15px;
+top: -475px;
+}
 
     header {
         margin-top: 100px;
@@ -682,48 +768,48 @@ footer li {
 
 
     .t1 {
-
-        position: relative;
-        left: -15px;
-        top: -2px;
+position: relative;
+left: -15px;
+top: -30px
     }
 
-    .t2 {
-        
-        padding-bottom: 5px;
-        position: relative;
-        bottom: 10px;
-        left: -13px;
+
+    .t2 h1 {
+
+        font-size: 24px;
+      position: relative;
+      left: -15px ;
+      top : -60px;
+
     }
+   
 
-    
-.t3 {
 
-    font-weight:lighter;
-    position: relative;
-    left: -15px;
-    top: -25px;
-}
 
 .t3 h3 {
 
     font-weight:300;
+    position: relative;
+    top: -40px;
+    left: -15px;
 }
 
-#recherche {
+.recherche {
+
 position: relative;
-left:-18px;
-top: -60px;
+top: -80px;
+left:-10px;
 
 }
 
-#navigation {
+button {
 
-    position:relative;
-    right: 50px;
-    Top: -330px;
-
+    position: relative;
+    right: -200px;
+    top: -65px;
 }
+
+
 
 .heb {
        
@@ -743,6 +829,7 @@ top: -60px;
       
         
         border: 0 0 1px 0 ;
+       
         border-top: none;
           border-bottom: lightgray;
           border-left: none;
@@ -762,19 +849,11 @@ top: -60px;
 
 
 
-#Filtre {
-
-
-   position: relative;
-   left: 40px;
-
-}
-
 .Filtre {
 
     position: relative;
-    top: -100px;
-    left: -60px;
+   top: -170px;
+   left: -10px;
 }
 
 
@@ -786,7 +865,8 @@ top: -60px;
 flex-direction: row;
 align-items: center;
     position: relative;
-    top: -50px;
+    top: -90px;
+ margin-left: 60px;
    
     
 }
@@ -803,18 +883,19 @@ align-items: center;
 .fam {
 
     position: relative;
-    left: -110px;
-    top: -50px;
+    left: -360px;
+ 
     display: flex;
     flex-direction: row;
+    
     align-items: center;
 
 }
 
 .rom {
 position: relative;
-top: 20px;
-left : -420px;
+top: 90px;
+left : -570px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -824,17 +905,18 @@ align-items: center;
 .ani {
 
 position: relative;
-top: 90px;
-left: -575px;
+top: 180px;
+left: -800px;
 display: flex;
 flex-direction: row;
 align-items: center;
 }
 
 
-#infoslogement {
+.infoslogement-container {
 
-    padding-top : 50px;
+    margin-top: 100px;
+    
 
 
 }
@@ -858,29 +940,20 @@ align-items: center;
     aside {
 
       position: relative;
-      left: 0px;
-      top: -1160px;
+      left: 65px;
+      top: -1500px;
      
     }
 
-    #logo img {
-
-        position: relative;
-        top : -95px;
-        left: -15px;
-        
-    }
-
-
-
-
-
+    
 
     article {
 
         width: auto;
         background-color: white;
 padding-top: 580px;
+position: relative;
+
     }
 
    
@@ -898,14 +971,6 @@ padding-top: 580px;
 
     }
 
-
-    #hmarseille1 {
-
-        display: flex;
-        flex-direction: column;
-    
-      
-    }
 
    
     .pic1 {
@@ -1001,14 +1066,14 @@ width: 300px;
 }
 
 
-#afficher {
+.afficher {
 
     position: relative;
     top:-200px;
 
 }
 
-    #actmarseille0 {
+    .actmarseille0 {
 
         
      margin-top: 750px;
@@ -1017,7 +1082,7 @@ width: 300px;
 
        }
 
-       #actmarseille {
+       .actmarseille {
 
         
         flex-direction: column;
@@ -1025,29 +1090,29 @@ width: 300px;
    left: -70px;
           }
    
-#actmarseille1 {
+.actmarseille1 {
 
     
     padding-bottom: 20px;
 }
 
-          #actmarseille1 figure {
+          .actmarseille1 figure {
              width: 300px;
 
           }
 
-          #actmarseille1 img {
+          .actmarseille1 img {
             width: 300px;
         
          }
 
-       #actmarseille img {
+       .actmarseille img {
 
         width: 300px;
         height: 150px;
        }
 
-       #actmarseille figure {
+       .actmarseille figure {
 
         max-width: 330px;
         
@@ -1056,7 +1121,7 @@ width: 300px;
 
 
 
-#actmarseille2 figure {
+.actmarseille2 figure {
    padding-bottom: 15px;
 
 }
@@ -1092,13 +1157,13 @@ width: 300px;
 
 
 
-#actmarseille4  {
+.actmarseille4  {
 
     
  padding-bottom: 20px;
  }
 
- #actmarseille4 figure {
+ .actmarseille4 figure {
 
    width: 300px;
  
